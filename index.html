@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abeer Rafiqe | Data Scientist Portfolio</title>
+  <meta name="description" content="Portfolio of Abeer Rafiqe, expert Data Scientist specialising in machine learning, predictive modelling, NLP and data-driven decision making." />
+  <meta name="author" content="Abeer Rafiqe" />
+  <meta property="og:title" content="Abeer Rafiqe | Data Scientist" />
+  <meta property="og:description" content="Expert Data Scientist building intelligent, production-ready ML systems." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236d5efc'/><text x='50' y='68' font-size='52' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'>AR</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container">
+      <a href="#home" class="brand" aria-label="Abeer Rafiqe home">
+        <span class="brand-mark">AR</span>
+        <span class="brand-name">Abeer <strong>Rafiqe</strong></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle colour theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Hire Me</a>
+        <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="grid-lines"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">👋 Hello, I'm</p>
+          <h1 class="hero-title reveal">Abeer Rafiqe</h1>
+          <p class="hero-role reveal">
+            I build <span class="typed-text" id="typedText"></span><span class="caret" aria-hidden="true"></span>
+          </p>
+          <p class="hero-lead reveal">
+            Expert Data Scientist with 8+ years turning messy, high-volume data into
+            production-grade machine learning systems that drive measurable business value.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+          <ul class="hero-meta reveal">
+            <li><span class="dot"></span> Available for freelance &amp; consulting</li>
+            <li><span class="dot"></span> Remote · Worldwide</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Profile summary">
+          <div class="avatar">
+            <span>AR</span>
+            <span class="avatar-ring" aria-hidden="true"></span>
+          </div>
+          <h2>Data Scientist &amp; ML Engineer</h2>
+          <p class="hero-card-text">MSc Statistics · ex-Lead DS at Nova Analytics</p>
+          <dl class="hero-stats">
+            <div><dt>Experience</dt><dd>8+ yrs</dd></div>
+            <div><dt>Models live</dt><dd>120+</dd></div>
+            <div><dt>Accuracy</dt><dd>96%</dd></div>
+          </dl>
+          <div class="hero-socials">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Kaggle">Kaggle</a>
+          </div>
+        </aside>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll to about section">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section stats-band" id="stats" aria-label="Key achievements">
+      <div class="container stats-grid">
+        <div class="stat reveal"><span class="stat-num" data-count="8" data-suffix="+">0</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="120" data-suffix="+">0</span><span class="stat-label">Models Deployed</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="45" data-suffix="+">0</span><span class="stat-label">Happy Clients</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="18" data-suffix=" TB">0</span><span class="stat-label">Data Analysed</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">About Me</p>
+          <h2 class="section-title">Data that tells a story, models that ship</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-visual reveal" aria-hidden="true">
+            <div class="code-window">
+              <div class="code-bar"><span></span><span></span><span></span></div>
+              <pre class="code-body"><code><span class="c-kw">import</span> pandas <span class="c-kw">as</span> pd
+<span class="c-kw">from</span> sklearn.ensemble <span class="c-kw">import</span> XGBClassifier
+
+df = pd.read_csv(<span class="c-str">"customers.csv"</span>)
+model = XGBClassifier(n_estimators=<span class="c-num">400</span>)
+model.fit(X_train, y_train)
+
+<span class="c-cm"># ROC-AUC: 0.963 🎯</span></code></pre>
+            </div>
+            <div class="floating-chip chip-1">Python</div>
+            <div class="floating-chip chip-2">SQL</div>
+            <div class="floating-chip chip-3">PyTorch</div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p>
+              I'm Abeer Rafiqe — a Data Scientist who sits at the intersection of statistics,
+              engineering and business strategy. I've spent the last eight years helping
+              fintech, retail and healthcare teams move from dashboards to decisions.
+            </p>
+            <p>
+              My work spans the full ML lifecycle: framing ambiguous business questions as
+              measurable problems, building and validating models, shipping them behind
+              clean APIs, and monitoring them in production. I care about interpretable
+              results as much as accuracy — a model nobody trusts is a model nobody uses.
+            </p>
+
+            <ul class="about-list">
+              <li><strong>Focus:</strong> predictive modelling, NLP, time-series &amp; MLOps</li>
+              <li><strong>Toolkit:</strong> Python, SQL, PyTorch, scikit-learn, Spark, AWS</li>
+              <li><strong>Approach:</strong> hypothesis-driven, reproducible, production-first</li>
+            </ul>
+
+            <div class="about-actions">
+              <a href="#contact" class="btn btn-primary">Let's Talk Data</a>
+              <a href="assets/abeer-rafiqe-cv.pdf" class="btn btn-ghost" id="downloadCv" download>Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Expertise</p>
+          <h2 class="section-title">Skills &amp; technologies</h2>
+          <p class="section-sub">The tools I reach for daily to take a problem from raw data to deployed model.</p>
+        </header>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Machine Learning</h3>
+            <div class="skill" data-level="95"><span class="skill-name">Supervised &amp; Unsupervised ML</span><span class="skill-val">95%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="92"><span class="skill-name">Feature Engineering</span><span class="skill-val">92%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="88"><span class="skill-name">Deep Learning (PyTorch / TF)</span><span class="skill-val">88%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="90"><span class="skill-name">NLP &amp; Large Language Models</span><span class="skill-val">90%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3>Data Engineering</h3>
+            <div class="skill" data-level="93"><span class="skill-name">SQL &amp; Query Optimisation</span><span class="skill-val">93%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="87"><span class="skill-name">PySpark &amp; Distributed Data</span><span class="skill-val">87%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="90"><span class="skill-name">Pandas / NumPy Pipelines</span><span class="skill-val">90%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="84"><span class="skill-name">Airflow Orchestration</span><span class="skill-val">84%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3>MLOps &amp; Visualisation</h3>
+            <div class="skill" data-level="86"><span class="skill-name">Model Deployment (FastAPI)</span><span class="skill-val">86%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="82"><span class="skill-name">Docker / AWS / GCP</span><span class="skill-val">82%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="89"><span class="skill-name">MLflow &amp; Experiment Tracking</span><span class="skill-val">89%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+            <div class="skill" data-level="91"><span class="skill-name">Tableau / Power BI</span><span class="skill-val">91%</span><span class="skill-track"><span class="skill-fill"></span></span></div>
+          </div>
+        </div>
+
+        <div class="tag-cloud reveal" aria-label="Technologies">
+          <span>Python</span><span>R</span><span>SQL</span><span>scikit-learn</span><span>XGBoost</span>
+          <span>LightGBM</span><span>TensorFlow</span><span>PyTorch</span><span>Hugging Face</span>
+          <span>LangChain</span><span>Pandas</span><span>Spark</span><span>dbt</span><span>Docker</span>
+          <span>Kubernetes</span><span>MLflow</span><span>Git</span><span>AWS SageMaker</span>
+          <span>Tableau</span><span>Streamlit</span><span>FastAPI</span><span>Matplotlib</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Featured Work</p>
+          <h2 class="section-title">Selected data science projects</h2>
+          <p class="section-sub">A few case studies where models moved a business metric, not just a leaderboard.</p>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="project-icon">📊</span>
+              <span class="project-tag">Predictive ML</span>
+            </div>
+            <h3>Customer Churn Prediction Engine</h3>
+            <p>Gradient-boosted churn model with SHAP explanations, served through a FastAPI microservice and wired into the CRM's retention workflow.</p>
+            <ul class="project-metrics">
+              <li><strong>0.96</strong> ROC-AUC</li>
+              <li><strong>-23%</strong> churn rate</li>
+            </ul>
+            <div class="project-stack"><span>Python</span><span>XGBoost</span><span>SHAP</span><span>FastAPI</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="project-icon">📈</span>
+              <span class="project-tag">Time Series</span>
+            </div>
+            <h3>Retail Demand Forecasting</h3>
+            <p>Hierarchical forecasts across 4,200 SKUs with holiday and promotion regressors, feeding automated replenishment for 60 stores.</p>
+            <ul class="project-metrics">
+              <li><strong>-18%</strong> forecast error</li>
+              <li><strong>-12%</strong> stockouts</li>
+            </ul>
+            <div class="project-stack"><span>Prophet</span><span>LightGBM</span><span>Airflow</span><span>SQL</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="project-icon">💬</span>
+              <span class="project-tag">NLP</span>
+            </div>
+            <h3>Product Review Insight Engine</h3>
+            <p>Fine-tuned transformer for aspect-based sentiment across 250K reviews, plus a live dashboard surfacing emerging customer complaints.</p>
+            <ul class="project-metrics">
+              <li><strong>91%</strong> F1 score</li>
+              <li><strong>250K</strong> reviews parsed</li>
+            </ul>
+            <div class="project-stack"><span>BERT</span><span>Hugging Face</span><span>Streamlit</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="project-icon">🛡️</span>
+              <span class="project-tag">Real-time ML</span>
+            </div>
+            <h3>Real-Time Fraud Detection</h3>
+            <p>Streaming anomaly detection scoring 12K transactions per second, with online feature store and automated retraining on drift alerts.</p>
+            <ul class="project-metrics">
+              <li><strong>0.4s</strong> p95 latency</li>
+              <li><strong>+31%</strong> fraud caught</li>
+            </ul>
+            <div class="project-stack"><span>Kafka</span><span>PySpark</span><span>LightGBM</span><span>AWS</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="project-icon">🩺</span>
+              <span class="project-tag">Computer Vision</span>
+            </div>
+            <h3>Medical Image Classification</h3>
+            <p>CNN pipeline for triaging chest X-rays with Grad-CAM explainability, validated with clinicians to meet safety review requirements.</p>
+            <ul class="project-metrics">
+              <li><strong>96%</strong> accuracy</li>
+              <li><strong>3x</strong> faster triage</li>
+            </ul>
+            <div class="project-stack"><span>PyTorch</span><span>CNN</span><span>Grad-CAM</span></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="project-icon">🎯</span>
+              <span class="project-tag">Recommendation</span>
+            </div>
+            <h3>Personalised Recommendation System</h3>
+            <p>Hybrid collaborative + content-based recommender with A/B-tested ranking, powering an e-commerce home feed.</p>
+            <ul class="project-metrics">
+              <li><strong>+17%</strong> CTR</li>
+              <li><strong>+9%</strong> revenue</li>
+            </ul>
+            <div class="project-stack"><span>Matrix Factorisation</span><span>Redis</span><span>Python</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Journey</p>
+          <h2 class="section-title">Experience &amp; education</h2>
+        </header>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-body">
+              <div class="timeline-meta"><span class="pill pill-role">Lead Data Scientist</span><time>2022 — Present</time></div>
+              <h3>Nova Analytics</h3>
+              <p>Lead a team of 6 DS/ML engineers delivering churn, pricing and forecasting platforms. Built the company's MLOps foundation (MLflow + CI/CD) cutting model deployment time from weeks to days.</p>
+              <ul class="timeline-points">
+                <li>Shipped 40+ models generating an estimated $8M annual impact.</li>
+                <li>Introduced model monitoring that reduced silent drift incidents by 70%.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-body">
+              <div class="timeline-meta"><span class="pill pill-role">Data Scientist</span><time>2019 — 2022</time></div>
+              <h3>InsightWorks Consulting</h3>
+              <p>Delivered end-to-end analytics engagements for retail and fintech clients, from problem framing and experimentation design to stakeholder-ready storytelling.</p>
+              <ul class="timeline-points">
+                <li>Built a recommendation engine that lifted CTR by 17%.</li>
+                <li>Created the internal feature-store template still used company-wide.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-body">
+              <div class="timeline-meta"><span class="pill pill-role">Junior ML Engineer</span><time>2017 — 2019</time></div>
+              <h3>DataWave Systems</h3>
+              <p>Developed ETL pipelines and baseline predictive models for telecom KPIs, and automated weekly reporting that saved 20 analyst hours per month.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-body">
+              <div class="timeline-meta"><span class="pill pill-edu">Education</span><time>2015 — 2017</time></div>
+              <h3>MSc in Statistics &amp; Machine Learning</h3>
+              <p>Thesis on ensemble methods for imbalanced classification. Graduated with distinction; teaching assistant for probabilistic modelling.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="certs reveal">
+          <span class="cert">AWS Certified ML – Specialty</span>
+          <span class="cert">Google Professional Data Engineer</span>
+          <span class="cert">TensorFlow Developer Certificate</span>
+          <span class="cert">Databricks Certified Associate</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title">Have a data problem worth solving?</h2>
+          <p class="section-sub">Tell me about your project — I usually reply within 24 hours.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="info-card">
+              <span class="info-icon">✉️</span>
+              <div><h3>Email</h3><a href="mailto:abeer.rafiqe@email.com">abeer.rafiqe@email.com</a></div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📍</span>
+              <div><h3>Location</h3><p>Lahore, Pakistan · Remote worldwide</p></div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🕒</span>
+              <div><h3>Availability</h3><p>Open to consulting &amp; full-time roles</p></div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🔗</span>
+              <div>
+                <h3>Profiles</h3>
+                <p class="info-links"><a href="#">LinkedIn</a> · <a href="#">GitHub</a> · <a href="#">Kaggle</a></p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" />
+                <small class="error" data-error-for="name"></small>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email" />
+                <small class="error" data-error-for="email"></small>
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="e.g. Churn model for our SaaS product" />
+              <small class="error" data-error-for="subject"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about the data, the goal and the timeline..."></textarea>
+              <small class="error" data-error-for="message"></small>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">AR</span>
+        <p>Building intelligent systems from data — one model at a time.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Kaggle</a>
+        <a href="#">Medium</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Abeer Rafiqe. All rights reserved.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
