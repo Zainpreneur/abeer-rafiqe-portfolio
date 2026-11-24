@@ -1,0 +1,9 @@
+{
+  "name": "datascientist-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "datascientist-portfolio",
+  "scripts": {
+    "start": "echo \"No root entrypoint; inspect repository contents\""
+  }
+}
